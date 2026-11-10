@@ -1,0 +1,12 @@
+{
+  "name": "cadastro-clientes-electronic",
+  "version": "1.0.0",
+  "description": "Cadastro de clientes (pessoa física e jurídica) da Electronic em JavaScript orientado a objetos",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node testes.js"
+  },
+  "license": "ISC"
+}
