@@ -7,9 +7,8 @@ Atividade 01 — Cadastro de Clientes da Electronic: da Modelagem ao Código
 
 | Campo | Informação |
 |---|---|
-| Nome | Daniel da Silva Marques do Nascimeno |
-| Curso / Unidade Curricular | [program_orientada_obj_desfll_t01rn
-] |
+| Nome | Daniel da Silva Marques do Nascimento |
+| Curso / Unidade Curricular | program_orientada_obj_desfll_t01rn |
 
 ## Sobre o projeto
 
@@ -168,4 +167,18 @@ Testes automatizados
 ## Histórico de commits
 
 O histórico do repositório mostra a evolução do trabalho
-(`git log --oneline`).
+
+O histórico do repositório mostra a evolução do trabalho, do diagrama à documentação.
+Saída de `git log --oneline --reverse`:
+
+```
+eac5d53 Adiciona diagrama de classes UML
+557c3cd Cria classe Endereco
+11cbf0f Cria classe base Pessoa com validação de nome
+b355e5c Cria PessoaFisica (CPF e data de nascimento)
+cd6c429 Cria PessoaJuridica (CNPJ e razão social)
+73e9a9d Adiciona programa principal com cenários
+2852d4a Adiciona testes automatizados
+7aa58b6 Adiciona README com evidências de teste
+
+```
